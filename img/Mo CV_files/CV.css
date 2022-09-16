@@ -1,0 +1,70 @@
+/*start global rules */
+
+:root{
+    --main-font: 'Titan One', cursive;
+    --text-font: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* small */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* larg */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* end  global rules   */
+
+/* start header  */
+.header .container{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.header .container .logo {
+    
+}
+.header .container .all-link  {
+    display: flex;
+}
+.header .container .links ul {
+display:flex;
+}
+
+
+
+
+/* End header */
